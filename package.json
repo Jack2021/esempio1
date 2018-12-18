@@ -1,0 +1,33 @@
+{
+  "name": "esempio1",
+  "version": "1.0.0",
+  "description": "esempio di esame 1",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jack2021/esempio1"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true
+  },
+  "author": "bob & jack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jack2021/esempio1"
+  },
+  "homepage": "https://github.com/jack2021/esempio1",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.2.0",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
